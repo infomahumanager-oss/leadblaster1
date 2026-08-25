@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Growth Agents | AI Automation, SEO &amp; Digital Marketing Agency</title>
+<meta name="description" content="AI Growth Agents builds AI agents, automation, SEO, and paid advertising systems that help businesses generate more leads, save time, and scale. Automate. Rank. Advertise. Grow.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          bgprimary: '#070B14',
+          bgsecondary: '#0D1321',
+          cardbg: '#111827',
+          eblue: '#3B82F6',
+          epurple: '#8B5CF6',
+          ecyan: '#22D3EE',
+        },
+        fontFamily: {
+          sans: ['Inter', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bgprimary-body">
+
+<!-- ================= HEADER / NAV ================= -->
+<header id="site-header" class="site-header">
+  <div class="nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-mark brand-mark-logo"><img src="images/nexora-logo.jpeg" alt="Nexora Digital logo"></span>
+      <span class="brand-text">Nexora <span class="gradient-text">Digital</span></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#home">Home</a>
+      <a href="#ai-agents">AI Agents</a>
+      <a href="#services">Services</a>
+      <a href="#seo">SEO</a>
+      <a href="#paid-ads">Paid Ads</a>
+      <a href="#industries">Industries</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#why-us">About</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="#contact" class="nav-contact-link">Contact Us</a>
+      <a href="#contact" class="btn btn-primary btn-sm">Build My AI Agent</a>
+      <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="mobile-menu">
+    <a href="#home">Home</a>
+    <a href="#ai-agents">AI Agents</a>
+    <a href="#services">Services</a>
+    <a href="#seo">SEO</a>
+    <a href="#paid-ads">Paid Ads</a>
+    <a href="#industries">Industries</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#why-us">About</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#contact" class="btn btn-primary btn-block">Build My AI Agent</a>
+  </div>
+</header>
+
+<main>
+<!-- ================= HERO ================= -->
+<section id="home" class="hero grid-pattern-bg">
+  <div class="hero-glow hero-glow-1"></div>
+  <div class="hero-glow hero-glow-2"></div>
+
+  <div class="section-inner hero-inner">
+    <div class="hero-left">
+      <span class="badge"><i class="fa-solid fa-bolt"></i> AI AUTOMATION + DIGITAL GROWTH</span>
+      <h1 class="hero-headline">Automate. Rank. <span class="gradient-text">Advertise. Grow.</span></h1>
+      <h2 class="hero-subheadline">AI Agents &amp; Digital Marketing Built for Business Growth.</h2>
+      <p class="hero-desc">Deploy intelligent AI agents, improve your Google rankings, generate qualified leads, and scale your digital marketing with one growth partner.</p>
+
+      <div class="hero-cta-row">
+        <a href="#contact" class="btn btn-primary btn-lg">Build My AI Agent <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-secondary btn-lg">Get Free Consultation</a>
+      </div>
+
+      <p class="hero-trust">24/7 AI Automation &bull; SEO &bull; Google Ads &bull; Meta Ads &bull; TikTok Ads</p>
+    </div>
+
+    <div class="hero-right">
+      <div class="dashboard-visual">
+        <svg class="connector-svg" viewBox="0 0 600 560" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#3B82F6"/>
+              <stop offset="100%" stop-color="#8B5CF6"/>
+            </linearGradient>
+          </defs>
+          <path d="M110,90 C 250,150 300,200 420,150" stroke="url(#lineGrad)" stroke-width="1.5" fill="none" opacity="0.5"/>
+          <path d="M420,150 C 480,240 340,260 300,320" stroke="url(#lineGrad)" stroke-width="1.5" fill="none" opacity="0.5"/>
+          <path d="M300,320 C 220,360 180,400 150,440" stroke="url(#lineGrad)" stroke-width="1.5" fill="none" opacity="0.5"/>
+          <path d="M150,440 C 260,480 350,470 430,430" stroke="url(#lineGrad)" stroke-width="1.5" fill="none" opacity="0.5"/>
+        </svg>
+
+        <div class="float-card fc-1">
+          <div class="fc-icon fc-icon-blue"><i class="fa-solid fa-user-plus"></i></div>
+          <div class="fc-text"><span class="fc-title">New Lead</span><span class="fc-status ok">Qualified <i class="fa-solid fa-check"></i></span></div>
+        </div>
+
+        <div class="float-card fc-2">
+          <div class="fc-icon fc-icon-purple"><i class="fa-solid fa-calendar-check"></i></div>
+          <div class="fc-text"><span class="fc-title">Appointment</span><span class="fc-status ok">Booked <i class="fa-solid fa-check"></i></span></div>
+        </div>
+
+        <div class="float-card fc-3">
+          <div class="fc-icon fc-icon-cyan"><i class="fa-brands fa-google"></i></div>
+          <div class="fc-text"><span class="fc-title">Google Ranking</span><span class="fc-status up">+12 Positions <i class="fa-solid fa-arrow-trend-up"></i></span></div>
+        </div>
+
+        <div class="float-card fc-4">
+          <div class="fc-icon fc-icon-blue"><i class="fa-solid fa-chart-line"></i></div>
+          <div class="fc-text"><span class="fc-title">Ad Campaign</span><span class="fc-status ok">Optimized <i class="fa-solid fa-check"></i></span></div>
+        </div>
+
+        <div class="float-card fc-5">
+          <div class="fc-icon fc-icon-purple"><i class="fa-solid fa-headset"></i></div>
+          <div class="fc-text"><span class="fc-title">Customer Support</span><span class="fc-status ok">Resolved <i class="fa-solid fa-check"></i></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TRUST SECTION ================= -->
+<section class="trust-section">
+  <div class="section-inner">
+    <h2 class="section-title center">One Partner for AI + Digital Growth</h2>
+    <div class="trust-grid">
+      <div class="trust-card">
+        <div class="trust-icon"><i class="fa-solid fa-robot"></i></div>
+        <p>AI Automation</p>
+      </div>
+      <div class="trust-card">
+        <div class="trust-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+        <p>SEO Growth</p>
+      </div>
+      <div class="trust-card">
+        <div class="trust-icon"><i class="fa-brands fa-google"></i></div>
+        <p>Google Ads</p>
+      </div>
+      <div class="trust-card">
+        <div class="trust-icon"><i class="fa-brands fa-meta"></i></div>
+        <p>Meta Ads</p>
+      </div>
+      <div class="trust-card">
+        <div class="trust-icon"><i class="fa-brands fa-tiktok"></i></div>
+        <p>TikTok Ads</p>
+      </div>
+      <div class="trust-card">
+        <div class="trust-icon"><i class="fa-solid fa-filter-circle-dollar"></i></div>
+        <p>Lead Generation</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= AI AGENTS SECTION ================= -->
+<section id="ai-agents" class="section">
+  <div class="section-inner">
+    <span class="badge center-badge"><i class="fa-solid fa-microchip"></i> AI WORKFORCE</span>
+    <h2 class="section-title center">Meet Your New AI Workforce.</h2>
+    <p class="section-subtitle center">Intelligent agents designed to automate repetitive business tasks and work around the clock.</p>
+
+    <div class="agents-grid">
+
+      <article class="agent-card">
+        <div class="agent-icon"><i class="fa-solid fa-handshake"></i></div>
+        <h3>AI Sales Agent</h3>
+        <p>Qualifies leads and helps convert prospects.</p>
+        <div class="tag-row"><span class="tag">Lead Scoring</span><span class="tag">Follow-Up</span><span class="tag">CRM Sync</span></div>
+        <div class="agent-actions"><a href="#contact" class="link-more">Learn More</a><a href="#contact" class="btn btn-mini">Build Agent</a></div>
+      </article>
+
+      <article class="agent-card">
+        <div class="agent-icon"><i class="fa-solid fa-headset"></i></div>
+        <h3>AI Customer Support Agent</h3>
+        <p>Answers customer questions 24/7.</p>
+        <div class="tag-row"><span class="tag">24/7 Support</span><span class="tag">Multi-Channel</span><span class="tag">Instant Reply</span></div>
+        <div class="agent-actions"><a href="#contact" class="link-more">Learn More</a><a href="#contact" class="btn btn-mini">Build Agent</a></div>
+      </article>
+
+      <article class="agent-card">
+        <div class="agent-icon"><i class="fa-solid fa-bullseye"></i></div>
+        <h3>AI Lead Generation Agent</h3>
+        <p>Captures, qualifies, and routes leads.</p>
+        <div class="tag-row"><span class="tag">Capture</span><span class="tag">Qualify</span><span class="tag">Route</span></div>
+        <div class="agent-actions"><a href="#contact" class="link-more">Learn More</a><a href="#contact" class="btn btn-mini">Build Agent</a></div>
+      </article>
+
+      <article class="agent-card">
+        <div class="agent-icon"><i class="fa-solid fa-calendar-check"></i></div>
+        <h3>AI Appointment Agent</h3>
+        <p>Books and manages appointments.</p>
+        <div class="tag-row"><span class="tag">Scheduling</span><span class="tag">Reminders</span><span class="tag">Calendar Sync</span></div>
+        <div class="agent-actions"><a href="#contact" class="link-more">Learn More</a><a href="#contact" class="btn btn-mini">Build Agent</a></div>
+      </article>
+
+      <article class="agent-card">
+        <div class="agent-icon"><i class="fa-solid fa-phone-volume"></i></div>
+        <h3>AI Voice Receptionist</h3>
+        <p>Answers business calls and handles customer requests.</p>
+        <div class="tag-row"><span class="tag">Voice AI</span><span class="tag">Call Routing</span><span class="tag">Live Handoff</span></div>
+        <div class="agent-actions"><a href="#contact" class="link-more">Learn More</a><a href="#contact" class="btn btn-mini">Build Agent</a></div>
+      </article>
+
+      <article class="agent-card">
+        <div class="agent-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+        <h3>AI E-commerce Agent</h3>
+        <p>Recommends products and assists shoppers.</p>
+        <div class="tag-row"><span class="tag">Product Match</span><span class="tag">Upsell</span><span class="tag">Cart Recovery</span></div>
+        <div class="agent-actions"><a href="#contact" class="link-more">Learn More</a><a href="#contact" class="btn btn-mini">Build Agent</a></div>
+      </article>
+
+      <article class="agent-card">
+        <div class="agent-icon"><i class="fa-solid fa-bullhorn"></i></div>
+        <h3>AI Marketing Agent</h3>
+        <p>Assists with content and marketing workflows.</p>
+        <div class="tag-row"><span class="tag">Content</span><span class="tag">Campaigns</span><span class="tag">Reporting</span></div>
+        <div class="agent-actions"><a href="#contact" class="link-more">Learn More</a><a href="#contact" class="btn btn-mini">Build Agent</a></div>
+      </article>
+
+      <article class="agent-card">
+        <div class="agent-icon"><i class="fa-solid fa-people-arrows"></i></div>
+        <h3>AI HR Agent</h3>
+        <p>Helps automate recruitment workflows.</p>
+        <div class="tag-row"><span class="tag">Screening</span><span class="tag">Scheduling</span><span class="tag">Onboarding</span></div>
+        <div class="agent-actions"><a href="#contact" class="link-more">Learn More</a><a href="#contact" class="btn btn-mini">Build Agent</a></div>
+      </article>
+
+      <article class="agent-card">
+        <div class="agent-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+        <h3>AI Finance Agent</h3>
+        <p>Assists with invoice and finance workflows.</p>
+        <div class="tag-row"><span class="tag">Invoicing</span><span class="tag">Reminders</span><span class="tag">Reporting</span></div>
+        <div class="agent-actions"><a href="#contact" class="link-more">Learn More</a><a href="#contact" class="btn btn-mini">Build Agent</a></div>
+      </article>
+
+      <article class="agent-card">
+        <div class="agent-icon"><i class="fa-solid fa-brain"></i></div>
+        <h3>AI Knowledge Agent</h3>
+        <p>Answers questions using company information.</p>
+        <div class="tag-row"><span class="tag">Knowledge Base</span><span class="tag">Instant Answers</span><span class="tag">Always On</span></div>
+        <div class="agent-actions"><a href="#contact" class="link-more">Learn More</a><a href="#contact" class="btn btn-mini">Build Agent</a></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= AI AGENT FEATURE VISUAL ================= -->
+<section class="section action-section grid-pattern-bg">
+  <div class="section-inner">
+    <h2 class="section-title center">AI That Doesn't Just Talk. It Takes Action.</h2>
+    <p class="section-subtitle center">A single conversation can trigger a full business workflow.</p>
+
+    <div class="workflow">
+      <div class="workflow-step">
+        <div class="workflow-icon"><i class="fa-solid fa-comment-dots"></i></div>
+        <span>Customer Message</span>
+      </div>
+      <div class="workflow-step">
+        <div class="workflow-icon"><i class="fa-solid fa-robot"></i></div>
+        <span>AI Agent</span>
+      </div>
+      <div class="workflow-step">
+        <div class="workflow-icon"><i class="fa-solid fa-lightbulb"></i></div>
+        <span>Understands Request</span>
+      </div>
+      <div class="workflow-step">
+        <div class="workflow-icon"><i class="fa-solid fa-database"></i></div>
+        <span>Checks Business Data</span>
+      </div>
+      <div class="workflow-step">
+        <div class="workflow-icon"><i class="fa-solid fa-gears"></i></div>
+        <span>Takes Action</span>
+      </div>
+      <div class="workflow-step">
+        <div class="workflow-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
+        <span>CRM Updated</span>
+      </div>
+      <div class="workflow-step">
+        <div class="workflow-icon"><i class="fa-solid fa-paper-plane"></i></div>
+        <span>Customer Notified</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DIGITAL MARKETING SERVICES ================= -->
+<section id="services" class="section">
+  <div class="section-inner">
+    <span class="badge center-badge"><i class="fa-solid fa-layer-group"></i> FULL-FUNNEL SERVICES</span>
+    <h2 class="section-title center">Everything You Need to Grow Online.</h2>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+        <h3>SEO</h3>
+        <ul>
+          <li>On-Page SEO</li><li>Off-Page SEO</li><li>Technical SEO</li><li>Local SEO</li><li>Keyword Research</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-newspaper"></i></div>
+        <h3>Guest Posting</h3>
+        <ul>
+          <li>Authority Outreach</li><li>Content Creation</li><li>Link Building</li><li>Digital PR</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-brands fa-google"></i></div>
+        <h3>Google Ads</h3>
+        <ul>
+          <li>Search Ads</li><li>Shopping Ads</li><li>Performance Max</li><li>YouTube Ads</li><li>Remarketing</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-brands fa-facebook"></i></div>
+        <h3>Facebook &amp; Instagram Ads</h3>
+        <ul>
+          <li>Lead Generation</li><li>E-commerce Ads</li><li>Retargeting</li><li>Lookalike Audiences</li><li>Creative Testing</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-brands fa-tiktok"></i></div>
+        <h3>TikTok Ads</h3>
+        <ul>
+          <li>Video Advertising</li><li>Lead Generation</li><li>Conversion Campaigns</li><li>Retargeting</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-share-nodes"></i></div>
+        <h3>Social Media Marketing</h3>
+        <ul>
+          <li>Facebook</li><li>Instagram</li><li>TikTok</li><li>LinkedIn</li><li>Content Strategy</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-pen-nib"></i></div>
+        <h3>Content Marketing</h3>
+        <ul>
+          <li>SEO Articles</li><li>Website Content</li><li>Landing Pages</li><li>Product Content</li><li>Email Marketing</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-filter-circle-dollar"></i></div>
+        <h3>Lead Generation</h3>
+        <ul>
+          <li>Landing Pages</li><li>Funnels</li><li>AI Qualification</li><li>CRM Automation</li><li>Retargeting</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SEO SECTION ================= -->
+<section id="seo" class="section seo-section grid-pattern-bg">
+  <div class="section-inner seo-grid">
+    <div class="seo-left">
+      <span class="badge"><i class="fa-solid fa-chart-line"></i> SEO GROWTH</span>
+      <h2 class="section-title">Get Found Where Your Customers Are Searching.</h2>
+      <p class="section-subtitle">Comprehensive SEO systems that improve visibility, traffic, and conversions.</p>
+
+      <div class="pill-row">
+        <span class="pill">On-Page SEO</span>
+        <span class="pill">Off-Page SEO</span>
+        <span class="pill">Technical SEO</span>
+        <span class="pill">Guest Posting</span>
+        <span class="pill">Local SEO</span>
+      </div>
+
+      <a href="#contact" class="btn btn-primary btn-lg">Get Free SEO Audit</a>
+    </div>
+
+    <div class="seo-right">
+      <div class="glass-panel seo-panel">
+        <div class="panel-header">
+          <i class="fa-brands fa-google"></i> <span>Search Performance</span>
+        </div>
+        <div class="metric-row">
+          <div class="metric-box">
+            <span class="metric-label">Keyword Rankings</span>
+            <span class="metric-value up">Improving <i class="fa-solid fa-arrow-trend-up"></i></span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-label">Organic Traffic</span>
+            <span class="metric-value up">Growing <i class="fa-solid fa-arrow-trend-up"></i></span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-label">Backlinks</span>
+            <span class="metric-value up">Increasing <i class="fa-solid fa-arrow-trend-up"></i></span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-label">Technical Health</span>
+            <span class="metric-value ok">Optimized <i class="fa-solid fa-check"></i></span>
+          </div>
+          <div class="metric-box wide">
+            <span class="metric-label">Conversions</span>
+            <span class="metric-value up">Trending Up <i class="fa-solid fa-arrow-trend-up"></i></span>
+          </div>
+        </div>
+        <p class="ui-note">UI Example — Illustrative Only</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PAID ADS SECTION ================= -->
+<section id="paid-ads" class="section ads-section">
+  <div class="section-inner ads-grid">
+    <div class="ads-left">
+      <div class="glass-panel ads-panel">
+        <div class="panel-header">
+          <i class="fa-solid fa-chart-simple"></i> <span>Campaign Dashboard</span>
+        </div>
+        <div class="metric-row">
+          <div class="metric-box"><span class="metric-label">Clicks</span><span class="metric-value">—</span></div>
+          <div class="metric-box"><span class="metric-label">Conversions</span><span class="metric-value">—</span></div>
+          <div class="metric-box"><span class="metric-label">CPC</span><span class="metric-value">—</span></div>
+          <div class="metric-box"><span class="metric-label">CTR</span><span class="metric-value">—</span></div>
+          <div class="metric-box"><span class="metric-label">Conv. Rate</span><span class="metric-value">—</span></div>
+          <div class="metric-box"><span class="metric-label">Ad Spend</span><span class="metric-value">—</span></div>
+        </div>
+        <div class="channel-icons">
+          <span><i class="fa-brands fa-google"></i></span>
+          <span><i class="fa-brands fa-facebook"></i></span>
+          <span><i class="fa-brands fa-instagram"></i></span>
+          <span><i class="fa-brands fa-tiktok"></i></span>
+          <span><i class="fa-brands fa-youtube"></i></span>
+        </div>
+        <p class="ui-note">UI Example — Not Actual Company Results</p>
+      </div>
+    </div>
+
+    <div class="ads-right">
+      <span class="badge"><i class="fa-solid fa-rocket"></i> PAID ADVERTISING</span>
+      <h2 class="section-title">Turn Ad Spend Into Qualified Opportunities.</h2>
+      <p class="section-subtitle">Full-funnel paid media across every major platform your customers use.</p>
+
+      <div class="pill-row">
+        <span class="pill">Google Ads</span>
+        <span class="pill">Facebook Ads</span>
+        <span class="pill">Instagram Ads</span>
+        <span class="pill">TikTok Ads</span>
+        <span class="pill">YouTube Ads</span>
+        <span class="pill">Remarketing</span>
+      </div>
+
+      <a href="#contact" class="btn btn-primary btn-lg">Launch My Campaign</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= INDUSTRIES SECTION ================= -->
+<section id="industries" class="section">
+  <div class="section-inner">
+    <span class="badge center-badge"><i class="fa-solid fa-building"></i> INDUSTRIES</span>
+    <h2 class="section-title center">AI &amp; Marketing Solutions for Your Industry.</h2>
+
+    <div class="industries-grid">
+      <div class="industry-card">
+        <div class="industry-icon"><i class="fa-solid fa-tooth"></i></div>
+        <h3>Dental Clinics</h3>
+        <p>AI Receptionist + Appointment Agent + Local SEO + Google Ads</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+        <h3>Healthcare</h3>
+        <p>AI Appointment Agent + Support Agent + Local SEO + Meta Ads</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon"><i class="fa-solid fa-house"></i></div>
+        <h3>Real Estate</h3>
+        <p>AI Lead Agent + Voice Receptionist + Google Ads + SEO</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+        <h3>E-commerce</h3>
+        <p>AI E-commerce Agent + Meta Ads + TikTok Ads + Content Marketing</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon"><i class="fa-solid fa-hotel"></i></div>
+        <h3>Hotels</h3>
+        <p>AI Booking Agent + Support Agent + SEO + Google Ads</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon"><i class="fa-solid fa-utensils"></i></div>
+        <h3>Restaurants</h3>
+        <p>AI Reservation Agent + Social Media Marketing + Local SEO</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+        <h3>Law Firms</h3>
+        <p>AI Intake Agent + Lead Generation + SEO + Google Ads</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon"><i class="fa-solid fa-cloud"></i></div>
+        <h3>SaaS</h3>
+        <p>AI Sales Agent + Knowledge Agent + Content Marketing + SEO</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon"><i class="fa-solid fa-house-chimney"></i></div>
+        <h3>Home Services</h3>
+        <p>AI Voice Receptionist + Lead Generation + Local SEO</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon"><i class="fa-solid fa-car"></i></div>
+        <h3>Automotive</h3>
+        <p>AI Sales Agent + Appointment Agent + Google Ads + SEO</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon"><i class="fa-solid fa-briefcase"></i></div>
+        <h3>Consulting</h3>
+        <p>AI Lead Agent + Content Marketing + LinkedIn Marketing</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon"><i class="fa-solid fa-user-tie"></i></div>
+        <h3>Professional Services</h3>
+        <p>AI Knowledge Agent + Lead Generation + SEO + Ads</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW IT WORKS ================= -->
+<section id="how-it-works" class="section">
+  <div class="section-inner">
+    <span class="badge center-badge"><i class="fa-solid fa-route"></i> PROCESS</span>
+    <h2 class="section-title center">How It Works</h2>
+
+    <div class="timeline">
+      <div class="timeline-step">
+        <div class="timeline-num">01</div>
+        <h3>Discover</h3>
+        <p>Understand your business and goals.</p>
+      </div>
+      <div class="timeline-step">
+        <div class="timeline-num">02</div>
+        <h3>Strategize</h3>
+        <p>Identify AI and marketing opportunities.</p>
+      </div>
+      <div class="timeline-step">
+        <div class="timeline-num">03</div>
+        <h3>Build</h3>
+        <p>Create AI agents, campaigns, SEO systems, and funnels.</p>
+      </div>
+      <div class="timeline-step">
+        <div class="timeline-num">04</div>
+        <h3>Scale</h3>
+        <p>Optimize performance and expand automation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY US ================= -->
+<section id="why-us" class="section">
+  <div class="section-inner">
+
+    <div class="about-nexora">
+      <div class="about-nexora-logo">
+        <img src="images/nexora-logo.jpeg" alt="Nexora Digital logo">
+      </div>
+      <div class="about-nexora-content">
+        <span class="badge"><i class="fa-solid fa-star"></i> ABOUT NEXORA DIGITAL</span>
+        <h2 class="section-title">About Nexora Digital</h2>
+        <p>At Nexora Digital, we help businesses grow online with powerful digital marketing, AI automation, lead generation, social media management, SEO, and high-converting website development.</p>
+        <p>Our mission is to help businesses attract the right audience, generate qualified leads, increase conversions, and build a strong digital presence. We combine proven marketing strategies with the latest AI technology and automation solutions to improve efficiency, save time, and drive sustainable growth.</p>
+        <p>From SEO and social media marketing to AI-powered business automation and conversion-focused websites, our team creates customized digital solutions based on your business goals and target audience.</p>
+        <p>We focus on measurable results, including increased website traffic, better lead generation, improved customer engagement, and higher conversions. Whether you are a startup, small business, or growing company, Nexora Digital provides the tools and strategies you need to compete and succeed in today's digital landscape.</p>
+        <p><strong>Ready to grow your business?</strong> Partner with Nexora Digital and turn your digital presence into a powerful growth engine.</p>
+        <a href="#contact" class="btn btn-primary">Partner With Nexora Digital</a>
+      </div>
+    </div>
+
+    <span class="badge center-badge"><i class="fa-solid fa-star"></i> WHY NEXORA DIGITAL</span>
+    <h2 class="section-title center">More Than an Agency. Your Digital Growth Partner.</h2>
+
+    <div class="whyus-grid">
+      <div class="whyus-card">
+        <i class="fa-solid fa-microchip"></i>
+        <h3>AI-First Approach</h3>
+      </div>
+      <div class="whyus-card">
+        <i class="fa-solid fa-puzzle-piece"></i>
+        <h3>Custom Solutions</h3>
+      </div>
+      <div class="whyus-card">
+        <i class="fa-solid fa-chart-pie"></i>
+        <h3>Data-Driven Strategy</h3>
+      </div>
+      <div class="whyus-card">
+        <i class="fa-solid fa-diagram-project"></i>
+        <h3>Full-Funnel Marketing</h3>
+      </div>
+      <div class="whyus-card">
+        <i class="fa-solid fa-arrows-spin"></i>
+        <h3>Continuous Optimization</h3>
+      </div>
+      <div class="whyus-card">
+        <i class="fa-solid fa-clock"></i>
+        <h3>24/7 Automation</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= AI VS CHATBOT ================= -->
+<section class="section compare-section grid-pattern-bg">
+  <div class="section-inner">
+    <h2 class="section-title center">Don't Just Chat With AI. Let AI Do the Work.</h2>
+
+    <div class="compare-grid">
+      <div class="compare-card compare-basic">
+        <h3><i class="fa-solid fa-comment"></i> Traditional Chatbot</h3>
+        <ul class="x-list">
+          <li><i class="fa-solid fa-xmark"></i> Static responses</li>
+          <li><i class="fa-solid fa-xmark"></i> Limited actions</li>
+          <li><i class="fa-solid fa-xmark"></i> FAQ-focused</li>
+          <li><i class="fa-solid fa-xmark"></i> Limited integrations</li>
+          <li><i class="fa-solid fa-xmark"></i> Human intervention</li>
+        </ul>
+      </div>
+      <div class="compare-card compare-ai">
+        <h3><i class="fa-solid fa-robot"></i> AI Agent</h3>
+        <ul class="check-list">
+          <li><i class="fa-solid fa-check"></i> Understands context</li>
+          <li><i class="fa-solid fa-check"></i> Takes actions</li>
+          <li><i class="fa-solid fa-check"></i> Uses business data</li>
+          <li><i class="fa-solid fa-check"></i> Connects to tools</li>
+          <li><i class="fa-solid fa-check"></i> Automates workflows</li>
+          <li><i class="fa-solid fa-check"></i> Can escalate to humans</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= INTEGRATIONS ================= -->
+<section class="section">
+  <div class="section-inner">
+    <span class="badge center-badge"><i class="fa-solid fa-plug"></i> INTEGRATIONS</span>
+    <h2 class="section-title center">Connects With the Tools You Already Use.</h2>
+
+    <div class="integrations-grid">
+      <div class="integration-card"><i class="fa-solid fa-calendar-days"></i><span>Google Calendar</span></div>
+      <div class="integration-card"><i class="fa-solid fa-envelope"></i><span>Gmail</span></div>
+      <div class="integration-card"><i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span></div>
+      <div class="integration-card"><i class="fa-solid fa-hubspot fa-brands"></i><span>HubSpot</span></div>
+      <div class="integration-card"><i class="fa-solid fa-cloud"></i><span>Salesforce</span></div>
+      <div class="integration-card"><i class="fa-brands fa-shopify"></i><span>Shopify</span></div>
+      <div class="integration-card"><i class="fa-brands fa-wordpress"></i><span>WordPress</span></div>
+      <div class="integration-card"><i class="fa-brands fa-stripe-s"></i><span>Stripe</span></div>
+      <div class="integration-card"><i class="fa-solid fa-calendar-check"></i><span>Calendly</span></div>
+      <div class="integration-card"><i class="fa-solid fa-table-cells"></i><span>Google Sheets</span></div>
+      <div class="integration-card"><i class="fa-brands fa-slack"></i><span>Slack</span></div>
+      <div class="integration-card"><i class="fa-solid fa-users-rectangle"></i><span>MS Teams</span></div>
+      <div class="integration-card"><i class="fa-solid fa-bolt"></i><span>Zapier</span></div>
+      <div class="integration-card"><i class="fa-solid fa-diagram-next"></i><span>Make</span></div>
+      <div class="integration-card"><i class="fa-solid fa-code-branch"></i><span>n8n</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ROI CALCULATOR ================= -->
+<section class="section roi-section grid-pattern-bg">
+  <div class="section-inner">
+    <span class="badge center-badge"><i class="fa-solid fa-calculator"></i> ROI ESTIMATOR</span>
+    <h2 class="section-title center">How Much Could You Automate?</h2>
+    <p class="section-subtitle center">Adjust the sliders to see an estimated impact for your business.</p>
+
+    <div class="roi-grid">
+      <div class="glass-panel roi-inputs">
+        <label>Employees
+          <input type="number" id="roi-employees" value="5" min="1">
+        </label>
+        <label>Monthly Leads
+          <input type="number" id="roi-leads" value="100" min="0">
+        </label>
+        <label>Customer Inquiries / Month
+          <input type="number" id="roi-inquiries" value="200" min="0">
+        </label>
+        <label>Hours / Week on Repetitive Tasks
+          <input type="number" id="roi-hours" value="10" min="0">
+        </label>
+        <label>Average Hourly Cost ($)
+          <input type="number" id="roi-cost" value="20" min="0">
+        </label>
+      </div>
+
+      <div class="roi-outputs">
+        <div class="roi-output-card">
+          <span class="roi-value" id="roi-hours-saved">0</span>
+          <span class="roi-label">Hours Saved / Month</span>
+        </div>
+        <div class="roi-output-card">
+          <span class="roi-value" id="roi-cost-savings">$0</span>
+          <span class="roi-label">Potential Cost Savings / Month</span>
+        </div>
+        <div class="roi-output-card">
+          <span class="roi-value" id="roi-leads-opportunities">0</span>
+          <span class="roi-label">Additional Lead Opportunities</span>
+        </div>
+        <div class="roi-output-card">
+          <span class="roi-value" id="roi-annual-impact">$0</span>
+          <span class="roi-label">Estimated Annual Impact</span>
+        </div>
+      </div>
+    </div>
+    <p class="ui-note center">Estimated / Example Calculation — Actual results vary by business.</p>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="section">
+  <div class="section-inner">
+    <h2 class="section-title center">Built for Businesses Ready to Grow.</h2>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <i class="fa-solid fa-quote-left quote-icon"></i>
+        <p>Client Testimonial Placeholder</p>
+        <div class="testimonial-author">
+          <div class="avatar-placeholder"><i class="fa-solid fa-user"></i></div>
+          <div><span class="t-name">Client Name Placeholder</span><span class="t-role">Business / Role Placeholder</span></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <i class="fa-solid fa-quote-left quote-icon"></i>
+        <p>Client Testimonial Placeholder</p>
+        <div class="testimonial-author">
+          <div class="avatar-placeholder"><i class="fa-solid fa-user"></i></div>
+          <div><span class="t-name">Client Name Placeholder</span><span class="t-role">Business / Role Placeholder</span></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <i class="fa-solid fa-quote-left quote-icon"></i>
+        <p>Client Testimonial Placeholder</p>
+        <div class="testimonial-author">
+          <div class="avatar-placeholder"><i class="fa-solid fa-user"></i></div>
+          <div><span class="t-name">Client Name Placeholder</span><span class="t-role">Business / Role Placeholder</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRICING ================= -->
+<section id="pricing" class="section">
+  <div class="section-inner">
+    <span class="badge center-badge"><i class="fa-solid fa-layer-group"></i> PLANS</span>
+    <h2 class="section-title center">Choose Your Growth System</h2>
+
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <h3>AI Starter</h3>
+        <ul class="check-list">
+          <li><i class="fa-solid fa-check"></i> 1 AI Agent</li>
+          <li><i class="fa-solid fa-check"></i> Basic Integration</li>
+          <li><i class="fa-solid fa-check"></i> Knowledge Base</li>
+          <li><i class="fa-solid fa-check"></i> Lead Capture</li>
+          <li><i class="fa-solid fa-check"></i> Basic Automation</li>
+        </ul>
+        <a href="#contact" class="btn btn-secondary btn-block">Get Started</a>
+      </div>
+
+      <div class="pricing-card pricing-featured">
+        <span class="pricing-badge">MOST POPULAR</span>
+        <h3>AI Growth</h3>
+        <ul class="check-list">
+          <li><i class="fa-solid fa-check"></i> Up to 3 AI Agents</li>
+          <li><i class="fa-solid fa-check"></i> CRM Integration</li>
+          <li><i class="fa-solid fa-check"></i> Calendar Integration</li>
+          <li><i class="fa-solid fa-check"></i> Advanced Automation</li>
+          <li><i class="fa-solid fa-check"></i> Lead Qualification</li>
+          <li><i class="fa-solid fa-check"></i> Analytics</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary btn-block">Build My AI System</a>
+      </div>
+
+      <div class="pricing-card">
+        <h3>Enterprise</h3>
+        <ul class="check-list">
+          <li><i class="fa-solid fa-check"></i> Custom AI Agents</li>
+          <li><i class="fa-solid fa-check"></i> Voice AI</li>
+          <li><i class="fa-solid fa-check"></i> Advanced Integrations</li>
+          <li><i class="fa-solid fa-check"></i> Custom Workflows</li>
+          <li><i class="fa-solid fa-check"></i> API Integration</li>
+          <li><i class="fa-solid fa-check"></i> Dedicated Support</li>
+        </ul>
+        <a href="#contact" class="btn btn-secondary btn-block">Request Custom Quote</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FINAL CTA ================= -->
+<section class="final-cta">
+  <div class="section-inner final-cta-inner">
+    <h2>Ready to Put AI to Work?</h2>
+    <p>Automate repetitive work, generate more leads, improve your search visibility, and scale your business.</p>
+    <div class="final-cta-buttons">
+      <a href="#contact" class="btn btn-primary btn-lg">Build My AI Agent</a>
+      <a href="#contact" class="btn btn-secondary btn-lg">Get Free Consultation</a>
+      <a href="https://wa.me/923315004820" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section contact-section">
+  <div class="section-inner contact-grid">
+    <div class="contact-left">
+      <span class="badge"><i class="fa-solid fa-envelope-open-text"></i> GET IN TOUCH</span>
+      <h2 class="section-title">Let's Build Your Growth System.</h2>
+      <p class="section-subtitle">Tell us about your business and goals — we'll get back to you with a tailored plan.</p>
+
+      <div class="contact-info">
+        <a href="mailto:info.mahu.manager@gmail.com" class="contact-info-item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>info.mahu.manager@gmail.com</span>
+        </a>
+        <a href="https://wa.me/923315004820" target="_blank" rel="noopener" class="contact-info-item">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>+92 331 500 4820</span>
+        </a>
+      </div>
+
+      <div class="contact-info-buttons">
+        <a href="mailto:info.mahu.manager@gmail.com" class="btn btn-secondary">Email Us</a>
+        <a href="https://wa.me/923315004820" target="_blank" rel="noopener" class="btn btn-whatsapp">Chat on WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="contact-right">
+      <form id="contact-form" class="glass-panel contact-form">
+        <div class="form-row">
+          <label>Full Name <input type="text" name="full_name" required></label>
+          <label>Business Name <input type="text" name="business_name"></label>
+        </div>
+        <div class="form-row">
+          <label>Email <input type="email" name="email" required></label>
+          <label>WhatsApp / Phone <input type="tel" name="phone"></label>
+        </div>
+        <div class="form-row">
+          <label>Website <input type="text" name="website"></label>
+          <label>Industry <input type="text" name="industry"></label>
+        </div>
+        <label>Services Interested In
+          <select name="services" multiple>
+            <option>AI Agents</option>
+            <option>AI Automation</option>
+            <option>SEO</option>
+            <option>On-Page SEO</option>
+            <option>Off-Page SEO</option>
+            <option>Technical SEO</option>
+            <option>Guest Posting</option>
+            <option>Google Ads</option>
+            <option>Facebook Ads</option>
+            <option>Instagram Ads</option>
+            <option>TikTok Ads</option>
+            <option>Social Media Marketing</option>
+            <option>Content Marketing</option>
+            <option>Lead Generation</option>
+            <option>Full Digital Marketing</option>
+          </select>
+        </label>
+        <label>Message <textarea name="message" rows="4"></textarea></label>
+        <button type="submit" class="btn btn-primary btn-block btn-lg">Request Free Consultation</button>
+        <p id="form-status" class="form-status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ================= FLOATING WHATSAPP BUTTON ================= -->
+<a href="https://wa.me/923315004820" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat With Us on WhatsApp">
+  <span class="whatsapp-pulse"></span>
+  <i class="fa-brands fa-whatsapp"></i>
+  <span class="whatsapp-tooltip">Chat With Us</span>
+</a>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="section-inner footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="brand">
+        <span class="brand-mark brand-mark-logo"><img src="images/nexora-logo.jpeg" alt="Nexora Digital logo"></span>
+        <span class="brand-text">Nexora <span class="gradient-text">Digital</span></span>
+      </a>
+      <p>AI Automation &bull; SEO &bull; Paid Advertising &bull; Digital Marketing</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>AI Agents</h4>
+      <a href="#ai-agents">AI Sales Agent</a>
+      <a href="#ai-agents">AI Support Agent</a>
+      <a href="#ai-agents">AI Voice Receptionist</a>
+      <a href="#ai-agents">AI Lead Generation Agent</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>SEO Services</h4>
+      <a href="#seo">On-Page SEO</a>
+      <a href="#seo">Off-Page SEO</a>
+      <a href="#seo">Technical SEO</a>
+      <a href="#seo">Guest Posting</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Paid Advertising</h4>
+      <a href="#paid-ads">Google Ads</a>
+      <a href="#paid-ads">Facebook &amp; Instagram Ads</a>
+      <a href="#paid-ads">TikTok Ads</a>
+      <a href="#paid-ads">YouTube Ads</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Digital Marketing</h4>
+      <a href="#services">Social Media Marketing</a>
+      <a href="#services">Content Marketing</a>
+      <a href="#services">Lead Generation</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#industries">Industries</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#why-us">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <div class="section-inner footer-contact">
+    <a href="mailto:info.mahu.manager@gmail.com"><i class="fa-solid fa-envelope"></i> info.mahu.manager@gmail.com</a>
+    <a href="https://wa.me/923315004820" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> +92 331 500 4820</a>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 AI Growth Agents. All rights reserved.</p>
+    <div class="footer-legal">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms &amp; Conditions</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="js/supabase-config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
